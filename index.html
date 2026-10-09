@@ -129,7 +129,7 @@ let soundCtx=null,muted=!save.sound;
 let pointerDown=false;
 
 function resize(){
- D=Math.min(devicePixelRatio||1,2);W=innerWidth;H=innerHeight;
+ D=Math.min(devicePixelRatio||1,1.25);W=innerWidth;H=innerHeight;
  canvas.width=W*D;canvas.height=H*D;
  canvas.style.width=W+'px';canvas.style.height=H+'px';
  ctx.setTransform(D,0,0,D,0,0);
