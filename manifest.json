@@ -1,10 +1,10 @@
 {
-  "name": "NEON DODGE 2.0",
-  "short_name": "NEON DODGE",
+  "name": "NEON RIFT 2.0",
+  "short_name": "NEON RIFT",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "orientation": "landscape",
+  "orientation": "portrait",
   "background_color": "#050510",
   "theme_color": "#050510",
   "icons": [
